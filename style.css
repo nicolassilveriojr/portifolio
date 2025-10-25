@@ -16,7 +16,7 @@ html{
     --escuro: #0f172a;
     --maisEscuro: #0a0f1c;
     --claro: #e2e8f0;
-    --vidro: rgba(255, 255, 255, 0.1)
+    --vidro: rgba(255, 255, 255, 0.1);
 }
 
 body{
@@ -103,4 +103,6 @@ h1{
 
 }
 
-.sobre-paragrafo
+.sobre-paragrafo{
+
+}
