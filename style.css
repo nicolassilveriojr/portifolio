@@ -163,7 +163,34 @@ h1 {
 
 .paragrafos-projetos {
     color: rgba(226, 232, 240, 0.8);
-    line-height
+    line-height: 1.25rem;
 }
 
-.info-projetos {}
+.info-projetos {
+margin-bottom: 5px;
+}
+
+.contato{
+
+}
+
+.contato-titulo{
+
+}
+
+
+.formulario-contato{
+
+}
+
+.grupo-form{
+
+}
+
+.campo-form{
+
+}
+
+.text-form{
+    
+}
