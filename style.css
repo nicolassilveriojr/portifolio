@@ -99,11 +99,13 @@ h1{
 .sobre-titulo{
     font-size: 3rem;
     color: var(--claro);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .sobre-caixa{
     padding: 2rem;
-    max-width: 800;
+    max-width: 600px;
     margin: 0 auto;
     border-radius: 16px;
     border: 1px solid var(--vidro);
