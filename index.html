@@ -116,12 +116,10 @@
 
 
     <script>
-        function enviarWhats(event) {
+        function enviarWhats(event){
             event.preventDefault()
-        }
 
-
-        const nome = document.getElementById('nome').value;
+            const nome = document.getElementById('nome').value;
         const mensagem = document.getElementById('mensagem').value;
         const telefone = '5543999013541';
 
@@ -133,7 +131,8 @@
         console.log(url) 
 
         window.open(url, '_blank')
-
+        }
+        
     </script>
 </body>
 
