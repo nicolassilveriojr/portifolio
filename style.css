@@ -101,7 +101,7 @@ h1{
     color: var(--claro);
 }
 
-.sobre_caixa{
+.sobre-caixa{
     padding: 2rem;
     max-width: 800;
     margin: 0 auto;
