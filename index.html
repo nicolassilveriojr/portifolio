@@ -52,48 +52,24 @@
         <h2 class="projetos-titulos">Meus projetos</h2>
         <div class="projetos-caixas">
 
+          
             <div class="projetos-cards">
-                <img src="img/projeto1.png" alt="projeto1 " class="projetos-imagem">
-                <div class="caixa-texto-projeto">
-                    <h3 class="info-projetos">Loja de Carros</h3>
-                    <p class="paragrafos-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-                        dolorem,
-                        odit earum porro nihil
-                        ullam veniam illo laudantium incidunt enim. Consectetur nam possimus amet quam sed dolor a ullam
-                        eius.</p>
-                </div>
-
-            </div>
-
-            <div class="projetos-cards">
-                <img src="img/projeto2.png" alt="projeto 2" class="projetos-imagem">
+                <img src="img/eu.jpg" alt="projeto 2" class="projetos-imagem">
                 <div class="caixa-texto-projeto">
 
-                    <h3 class="info-projetos">Pagina de Viagem</h3>
-                    <p class="paragrafos-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Repudiandae
-                        dolorem,
-                        odit earum porro nihil
-                        ullam veniam illo laudantium incidunt enim. Consectetur nam possimus amet quam sed dolor a
-                        ullam
-                        eius.
+                    <h3 class="info-projetos">Pagina Sobre mim</h3>
+                    <p class="paragrafos-projetos">É um modelo de site que minha Professora que da curso para mim, recomendou eu fazer sobre mim é oque eu gostava ou não de fazer
                     </p>
                 </div>
             </div>
 
             <div class="projetos-cards">
-                <img src="img/projeto3.png" alt="projeto 3" class="projetos-imagem">
+                <img src="img/ecomadeira.jpg" alt="projeto 3" class="projetos-imagem">
 
                 <div class="caixa-texto-projeto">
-                    <h3 class="info-projetos">Microsoft</h3>
-                    <p class="paragrafos-projetos">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Repudiandae
-                        dolorem,
-                        odit earum porro nihil
-                        ullam veniam illo laudantium incidunt enim. Consectetur nam possimus amet quam sed dolor
-                        a
-                        ullam
-                        eius.
+                    <h3 class="info-projetos">Eco Wood</h3>
+                    <p class="paragrafos-projetos">Trabalho em grupo de 4 pessoas um Scrum master, Product Owner e dois
+                        Desenvolvedore, Comprometidos com práticas que respeitam o meio ambiente e a sociedade.
                     </p>
                 </div>
             </div>
@@ -116,21 +92,21 @@
 
 
     <script>
-        function enviarWhats(event){
+        function enviarWhats(event) {
             event.preventDefault()
 
-        const nome = document.getElementById('nome').value;
-        const mensagem = document.getElementById('mensagem').value;
-        const telefone = '5543999013541';
+            const nome = document.getElementById('nome').value;
+            const mensagem = document.getElementById('mensagem').value;
+            const telefone = '5543999013541';
 
-        const texto = 'Ola! Me chamo ${nome}, ${mensagem}'
-        const msgFormatada = encodeURIComponent(texto)
+            const texto = 'Ola! Me chamo ${nome}, ${mensagem}'
+            const msgFormatada = encodeURIComponent(texto)
 
-        const url = 'https://wa.me//5543999013541?text=${msgFormatada}'
+            const url = 'https://wa.me//5543999013541?text=${msgFormatada}'
 
-        console.log(url) 
+            console.log(url)
 
-        window.open(url, '_blank')
+            window.open(url, '_blank')
         }
 
     </script>
