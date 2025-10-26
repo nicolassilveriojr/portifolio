@@ -104,7 +104,7 @@
         <h2 class="contato-titulo">Entre em Contato</h2>
         <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
             <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form" id="nome">
+                <input placeholder="nome" class="campo-form" id="nome">
             </div>
             <div class="grupo-form">
                 <textarea class="campo-form" placeholder="Digite sua Mensagem" id="mensagem"></textarea>
@@ -121,15 +121,14 @@
         }
 
 
-
         const nome = document.getElementById('nome').value;
         const mensagem = document.getElementById('mensagem').value;
-        const telefone = '5543999013541';
+        const telefone = '554399013541';
 
         const texto = 'Ola! Me chamo${nome}, ${mensagem}'
         const msgFormatada = encodeURIComponent(texto)
 
-        const url = 'https://wa.me/${telefone}?text=${msgFormatada}'
+        const url = 'https://wa.me/{telefone}?text==${msgFormatada}'
 
         console.log(url) 
 
