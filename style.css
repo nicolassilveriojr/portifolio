@@ -129,7 +129,7 @@ h1 {
     max-width: 1200px;
 }
 
-.projetos-card {
+.projetos-cards {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     backdrop-filter: blur(5px);
